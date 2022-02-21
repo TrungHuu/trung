@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a>img{
+    width: 100%;
+}
+.boxcenter{
+    width: 90%;
+    margin: 0 auto;
+    height: 57.2rem;
+}
+
+
+.menu{
+    margin: 0 auto;
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+ font-style: normal;
+ color: wheat;
+ font-size: 14pt;
+ text-align: center;
+}
+.menu ul{
+    list-style: none;
+    
+}
+.menu ul li{
+    float: left;
+    text-align: center;
+    line-height: 60px;
+
+}
+.menu ul li a{
+    margin: 0 20px;
+    font-size: 20pt;
+    font-variant: small-caps;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: rgb(248, 246, 244);
+    background-color: #666;
+}
+.menu .search-container {
+    line-height: 60px;
+}
+.menu ul li ul li{
+    float: none;
+    margin: 8px 0;
+    background-color: rgb(25, 26, 25);
+    display: block;
+   
+}
+.menu ul li ul{
+    padding: 0;
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+
+
+.banner-text{
+    position:absolute;
+    top: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.76);
+ 
+}
+
+
+.banner-text button{
+    padding: 10px 10px;
+    
+}
+.banner-text p{
+font-size: 25px;
+
+}
+.banner-text a.bth{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 6px 13px;
+    text-decoration: none;
+    background: rgb(248, 113, 2);
+    margin-top: 10px;
+    
+}
+
+
+
+.boxleft{
+    float: left;
+    width: 68%;
+    background-color: rgb(10, 10, 9);
+    min-height: 600px;
+    margin-right:5px ;
+    margin-left: 10px;
+    border-radius: 10px;
+    }
+    p{
+        text-align:center;
+        }
+        p>a>img{
+            width: 291.1px;
+            height: 300px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 1px 1px blue;  
+            float: left;
+        }
+        p>a>img:hover{
+            box-shadow: 5px 5px red;
+            background-color: aqua;
+        }
+.boxleft text{
+    right: 20px;
+    height: 50px;
+    position: absolute;
+}
+
+
+
+
+.boxright{
+    float: left;
+    width: 25%;
+    background-color: rgb(10, 9, 9);
+border-radius: 10px;
+    border: #666;
+   
+}
+
+.title{
+
+   background: rgb(14, 12, 11) ;
+   text-align: center;
+   border-radius: 10px;
+}
+.boxright h2{
+   
+    color: rgb(247, 242, 242);
+    line-height: 70px;
+    margin-top: 0; 
+  
+}
+.boxright ul li{
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    line-height: 45px;
+    font-size: 30px;
+    text-decoration: none; 
+}
+.boxright ul li:hover{
+
+    background-color: orangered;
+    max-width: 100%;
+    border-bottom: 1px solid grey;
+    
+
+
+}
+.boxright li a{
+    text-decoration: none;
+    color: white;
+}
+.class{
+    background : cadetblue;
+}
+.socials {
+    list-style: none;
+}
+.socials{
+    float: left;
+}
+.boxcenter img{
+    -webkit-transform:scale(1); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+    -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
+    -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
+    -webkit-transition-duration: 0.5s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+    -moz-transition-duration: 0.5s; /*Như trên*/
+    -o-transition-duration: 0.5s; /*Như trên*/
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+    }
+  .boxcenter img:hover{
+    -webkit-transform:scale(1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+    box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray; 
+    opacity: 1; /*Độ mờ của hình ảnh*/
+  }
+  
+  footer{
+    width: 100%;
+    background: rgb(154, 156, 156);
+    color: rgb(0, 0, 0);
+    text-align:center;
+    margin-top: 5px;
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+    margin: 30px 0;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 3px 0;
+}
+
+
+
+

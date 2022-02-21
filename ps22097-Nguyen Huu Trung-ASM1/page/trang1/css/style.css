@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a>img{
+    width: 100%;
+}
+.boxcenter{
+    width: 90%;
+    margin: 0 auto;
+    height: 57.2rem;
+}
+
+
+.menu{
+    margin: 0 auto;
+    background-color: #161212;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+ font-style: normal;
+ color: wheat;
+ font-size: 14pt;
+ text-align: center;
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+}
+.menu ul li{
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+
+}
+.menu ul li a{
+    margin: 0 20px;
+    font-size: 20pt;
+    font-variant: small-caps;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+}
+.menu ul li a:hover{
+    color: rgb(248, 246, 244);
+    background-color: #666;
+}
+.menu .search-container {
+    line-height: 60px;
+}
+.menu ul li ul li{
+    float: none;
+    margin: 8px 0;
+    background-color: rgb(25, 26, 25);
+    display: block;
+   
+}
+.menu ul li ul{
+    padding: 0;
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+
+
+.banner-text{
+    position:absolute;
+    top: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+
+.banner-text button{
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+.banner-text button:hover{
+  background-color: #161212;
+  color: #fff;
+}
+
+
+
+
+.boxleft{
+    float: left;
+    width: 68%;
+    background-color: rgb(255, 255, 254);
+    min-height: 800px;
+    margin-right:5px ;
+    margin-left: 10px;
+    border-radius: 10px;  
+    }
+   .boxleft ul li{
+    float: left;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    
+
+   }
+   .boxcenter .boxleft .menuuu- {
+     text-align: center;
+   }
+   .boxcenter .boxleft .menuuu- a{
+   display:inline-block;
+}
+  .boxcenter .boxleft .menuuu- a  {
+    padding: 0 25px;
+    color:rgb(0, 0, 0);
+    margin-top: 40px ;
+    text-decoration: none;
+    }
+    .boxcenter .news-item a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);  
+    }
+    .news-item {
+      width: 26%;
+      display: inline-block;
+      margin: 0 0.9rem;
+      padding: 20px 0 ;
+      }
+ .boxleft.news-item p{
+        text-decoration: none
+      }
+
+.boxleft h3{
+  width: 100%;
+
+text-align: center;
+color: rgb(0, 0, 0);
+}
+
+
+.boxright{
+    float: left;
+    width: 25%;
+    background-color: rgb(252, 246, 246);
+    min-height: 600px;
+    border: #666;
+   
+}
+.title{
+
+   background: rgb(241, 240, 240) ;
+   text-align: center;
+}
+.boxright h2{
+   
+    color: rgb(20, 15, 15);
+    line-height: 70px;
+    margin-top: 0; 
+  
+}
+.boxright ul li{
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    line-height: 45px;
+    font-size: 30px;
+    text-decoration: none; 
+}
+.boxright ul li:hover{
+
+    background-color: rgb(241, 233, 229);
+    max-width: 100%;
+    border-bottom: 1px solid grey;
+}
+.boxright.ul.h3{
+  color: #fff;
+}
+.boxright li a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.class{
+    background : cadetblue;
+}
+.socials {
+    list-style: none;
+}
+.socials{
+    float: left;
+}
+.boxcenter img{
+    -webkit-transform:scale(1); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+    -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
+    -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
+    -webkit-transition-duration: 0.5s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+    -moz-transition-duration: 0.5s; /*Như trên*/
+    -o-transition-duration: 0.5s; /*Như trên*/
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+    }
+  .boxcenter img:hover{
+    -webkit-transform:scale(1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+    box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray; 
+    opacity: 1; /*Độ mờ của hình ảnh*/
+  }
+  
+  footer{
+    width: 100%;
+    background: rgb(154, 156, 156);
+    color: rgb(0, 0, 0);
+    text-align:center;
+    margin-top: 167px;
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+    margin: 30px 0;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 3px 0;
+}
+
